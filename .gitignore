@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# System files
+.DS_Store
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Bruno environments (contain secrets)
+environments/
+
+# Bruno secret files
+*.secrets.bru
+
+# IMPORTANT: Review all .bru files before committing
+# Make sure they don't contain:
+# - Real API keys (use environment variables instead)
+# - Passwords or tokens
+# - Sensitive data in request bodies
+#
+# Use Bruno's environment variables for sensitive data
